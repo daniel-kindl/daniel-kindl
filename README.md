@@ -2,6 +2,40 @@
 
 I tell computers what to do and they listen. Sometimes.
 
-C#, .NET, TypeScript, Svelte, Astro, Python — the languages change, TDD, SOLID and clean architecture don't.
+These days that means less typing and more engineering. I settle how a system is put together before anything gets written: the boundaries, the interfaces, the rules it has to hold to, and what counts as done. AI writes most of the code inside that.
 
-Currently building [dk-timer](https://github.com/daniel-kindl/dk-timer), and a homelab server.
+C# I learned the old way, before any of this existed. The rest of what's below I picked for the job, not because I know it. I couldn't write Kotlin from memory or tell you where Go keeps its sharp edges. What I can do is tell whether what comes back is built the way I asked for, and send it back when it isn't. The languages change. TDD, SOLID and clean architecture don't.
+
+## Building now
+
+|   |   |   |
+| --- | --- | --- |
+| [ocho](https://github.com/daniel-kindl/ocho) | Android interval timer for EMOM, Tabata and AMRAP. Full-screen phase colours you can read across a room, and tones on the alarm stream so silent mode can't swallow them. | Kotlin |
+| [upall](https://github.com/daniel-kindl/upall) | One command to update every package manager, OS and container on a machine. It shows you the plan before it touches anything. Pre-alpha: design docs, no binary yet. | Go |
+| [danielkindl.dev](https://danielkindl.dev) | Portfolio site. | Astro |
+
+Alongside those, a few private applications and a homelab server running Docker Compose behind Caddy, with self-hosted Git, Postgres, and Pi-hole and Unbound handling DNS. None of it is public.
+
+## How I work
+
+- Architecture and interfaces are settled before implementation exists. That part doesn't get delegated.
+- Behaviour gets a test before it gets code. If there's no test for it, I don't count it as done.
+- I reuse shapes rather than frameworks. A repository or a pipeline outlives whichever library is current.
+- Everything committed under my name gets read by me first.
+
+## What these are built in
+
+Chosen for the problem, not listed as a skillset.
+
+|   |   |
+| --- | --- |
+| Languages | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=dotnet&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
+| Runtime | ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Node](https://img.shields.io/badge/Node-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![Android](https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white) |
+| Frontend | ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white) ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+| Infrastructure | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+
+---
+
+[![danielkindl.dev](https://img.shields.io/badge/danielkindl.dev-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://danielkindl.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/kindldaniel/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/jmenuji_se_daniel/)
