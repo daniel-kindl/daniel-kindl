@@ -8,4 +8,4 @@ Software architecture · developer tooling · system utilities · local-first so
 
 ## Links
 
-[Website](https://danielkindl.dev) · [GitHub](https://github.com/daniel-kindl) · [X](https://x.com/danielkindldev) · [Bluesky](https://bsky.app/profile/danielkindl.dev) · [Instagram](https://instagram.com/danielkindl.dev)
+[Website](https://danielkindl.dev) · [X](https://x.com/danielkindldev) · [Bluesky](https://bsky.app/profile/danielkindl.dev) · [Instagram](https://instagram.com/danielkindl.dev)
